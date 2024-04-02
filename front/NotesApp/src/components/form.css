@@ -1,0 +1,158 @@
+*{
+   background-color: #242424; 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+@media only screen and (max-width: 768px){
+    .addNote{
+        background-color: rgb(87, 88, 157);
+        position: fixed;
+        border-radius: 5em;
+        border: none;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        font-size: 30px;
+        padding: 0.8em .8em;
+    }
+    .card-buttons{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid aliceblue;
+        border-radius: 0.2em;
+        width: 100%; 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+     /* .form button, .form #description{
+        display: none;
+    }  */
+    
+    .form input, button{
+        border: none;
+        text-decoration: none;
+        color: aliceblue;
+        padding: 1em;
+        margin: 0.5em;
+    }
+    ::placeholder {
+       font-weight: 600;
+      }
+    
+    .form label{
+        margin :0;
+        padding: 0;
+      }
+    .form input:focus{
+        border: none;
+        text-decoration: none;
+        outline: none;
+    }
+    
+    .btn-submit{
+        width: fit-content;
+        color:aliceblue;
+        align-self: flex-end;
+    }
+    
+    .btn-submit:hover{
+        cursor: pointer;
+        background-color: rgb(154, 160, 166, 0.039);
+        border-radius: 0.5em;
+    }
+    
+    form:hover
+    .form button,
+    form:hover 
+    .form #description{
+        display: block;
+    }
+    
+    .create-form{
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px){
+   
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid aliceblue;
+        border-radius: 0.2em;
+        width: 100%; 
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+     /* .form button, .form #description{
+        display: none;
+    }  */
+    
+    .form input, button{
+        border: none;
+        text-decoration: none;
+        width: 90%;
+        color: aliceblue;
+        padding: 1em;
+        margin: 0.5em;
+    }
+    ::placeholder {
+       font-weight: 600;
+      }
+    
+    .form label{
+        margin :0;
+        padding: 0;
+      }
+    .form input:focus{
+        border: none;
+        text-decoration: none;
+        outline: none;
+    }
+    
+    .btn-submit{
+        width: fit-content;
+        color:aliceblue;
+        align-self: flex-end;
+    }
+    
+    .btn-submit:hover{
+        cursor: pointer;
+        background-color: rgb(154, 160, 166, 0.039);
+        border-radius: 0.5em;
+    }
+    
+    form:hover
+    .form button,
+    form:hover 
+    .form #description{
+        display: block;
+    }
+    
+    .create-form{
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+

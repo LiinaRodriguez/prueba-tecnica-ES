@@ -1,0 +1,65 @@
+
+    .update-content{
+        background-color: rgba(218, 211, 211, 0.3);
+        margin: 1em 0em;
+        display: grid;
+        padding: 0.2em;
+        /* border: 1px solid #822121; */
+        backdrop-filter: blur(2px);
+        border-radius: 5px;
+        width: auto;
+        height: auto;
+        position: fixed;
+       /* top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin: 20%; */
+    }
+
+    .close-btn{
+        width: fit-content;
+        justify-self: flex-end;
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid #822121; */
+        border-radius: 5px;
+    }
+
+    .update-form input, button{
+        border: none;
+        text-decoration: none;
+        width: 90%;
+        color: aliceblue;
+        padding: 1em;
+        margin: 0.5em;
+    }
+    ::placeholder {
+       font-weight: 600;
+      }
+    
+    .update-form label{
+        margin :0;
+        padding: 0;
+      }
+    .update-form input:focus{
+        border: none;
+        text-decoration: none;
+        outline: none;
+    }
+
+    .update-form{
+        /* background-color: #822121; */
+        padding: 1em;
+        margin: 0.2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* border: 1px solid #242182; */
+       border-radius: 5px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
